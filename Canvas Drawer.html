@@ -1,0 +1,39 @@
+<html>
+  <head>
+      <meta charset="utf-8" />
+      <title>Canvas Drawer</title>
+  </head>
+  <style>
+    body{
+      font-size: 25;
+      font-family: verdana;
+      background-color: lightblue;
+    }
+    h1{
+      font-family: Impact;
+      font-size: 80;
+      color: darkorange;
+    }
+    h2{
+      font-family: verdana;
+      font-size: 20;
+    }
+    canvas{
+      background-color: gray ;
+    }
+  </style>
+  <body>
+    <center>
+      <h1>Canvas Drawer</h1>
+      <h2>Use the arrows for drawing, it works at 75% browser zoom</h2>
+      <canvas width="800" height="500" id='paper'></canvas>
+      <br/>Drawing Speed: <input type="number" id="movement" value="10"/>
+      Thickness: <input type="number" id="thickness" value="10"/>
+      <br/><input type="radio" name="tool" id="eraser"/>Eraser
+      <input type="radio" name="tool" id="pen"/>Pencil
+      <br/>Pencil color: <input type="color" id="color" value="#efa418" />
+      <br/>Delete all <input type="reset" id="reset_button" value="reset"/>
+      <script src="Canvas Drawer.js"></script>
+    </center>
+    </body>
+</html>
