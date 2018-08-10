@@ -1,3 +1,4 @@
 # Canvas-Drawer
 
-#What have been changed?
+#What had been changed?
+describe the features that had been added
