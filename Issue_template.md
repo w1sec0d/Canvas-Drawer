@@ -1,5 +1,3 @@
-# Canvas-Drawer
-Thanks for supporting me!
-Over the next versions I will set the feature of drawing using the mouse
+##Where can I find the issue?
 
-Special thanks to platzi.com
+##In which version happens? 
